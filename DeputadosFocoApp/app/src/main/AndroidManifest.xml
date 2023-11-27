@@ -16,22 +16,22 @@
         android:theme="@style/Theme.DeputadosFocoApp"
         tools:targetApi="31">
         <activity
-            android:name=".ListCardApp"
+            android:name=".ui.ListCardApp"
             android:exported="false" />
         <activity
-            android:name=".MenuGastosApp"
+            android:name=".ui.MenuGastosApp"
             android:exported="false" />
         <activity
-            android:name=".MenuPoliticoApp"
+            android:name=".ui.MenuPoliticoApp"
             android:exported="false" />
         <activity
-            android:name=".MenuDeputadoApp"
+            android:name=".ui.MenuDeputadoApp"
             android:exported="false" />
         <activity
-            android:name=".ToolbarApp"
+            android:name=".ui.ToolbarApp"
             android:exported="false" />
         <activity
-            android:name=".HomeApp"
+            android:name=".ui.HomeApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

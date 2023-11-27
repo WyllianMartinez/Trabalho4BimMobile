@@ -1,4 +1,4 @@
-package br.com.deputadosfocoapp.response;
+package br.com.deputadosfocoapp.model.response;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package br.com.deputadosfocoapp.model;
 
-public class DadosDespesa {
+public class Despesas {
     private int ano;
     private String cnpjCpfFornecedor;
     private int codDocumento;
@@ -19,14 +19,14 @@ public class DadosDespesa {
     private double valorGlosa;
     private double valorLiquido;
 
-    public DadosDespesa(){
+    public Despesas(){
 
     }
-    public DadosDespesa(int ano, String cnpjCpfFornecedor, int codDocumento, int codLote,
-                        int codTipoDocumento, String dataDocumento, int mes, String nomeFornecedor,
-                        String numDocumento, String numRessarcimento, int parcela, String tipoDespesa,
-                        String tipoDocumento, String urlDocumento, double valorDocumento,
-                        double valorGlosa, double valorLiquido) {
+    public Despesas(int ano, String cnpjCpfFornecedor, int codDocumento, int codLote,
+                    int codTipoDocumento, String dataDocumento, int mes, String nomeFornecedor,
+                    String numDocumento, String numRessarcimento, int parcela, String tipoDespesa,
+                    String tipoDocumento, String urlDocumento, double valorDocumento,
+                    double valorGlosa, double valorLiquido) {
         this.ano = ano;
         this.cnpjCpfFornecedor = cnpjCpfFornecedor;
         this.codDocumento = codDocumento;
