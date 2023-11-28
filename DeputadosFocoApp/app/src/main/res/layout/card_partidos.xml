@@ -6,13 +6,16 @@
     android:layout_height="wrap_content"
     android:background="@drawable/border_card"
     android:padding="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp"
     tools:context=".ui.ListCardApp">
 
     <LinearLayout
         android:id="@+id/cardPartidos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <TextView
             android:id="@+id/tvNome"

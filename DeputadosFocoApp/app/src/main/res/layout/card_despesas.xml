@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     android:padding="10dp"
     android:background="@drawable/border_card"
-    tools:context=".ui.ListCardApp">
+    tools:context=".ui.ListCardApp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp">
 
     <LinearLayout
         android:id="@+id/cardDespesas"
