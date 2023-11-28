@@ -44,6 +44,11 @@ public class MenuPoliticoApp extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Lista de Deputados");
 
+        toolbar.setNavigationOnClickListener(view -> onBackPressed());
+
+        Drawable drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.baseline_arrow_back_24, null);
+        drawable.setColorFilter(getResources().getColor(android.R.color.white), PorterDuff.Mode.SRC_ATOP);
+        getSupportActionBar().setHomeAsUpIndicator(drawable);
         rvDespesas = findViewById(R.id.rvDespesas);
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -53,9 +58,6 @@ public class MenuPoliticoApp extends AppCompatActivity {
             }
         });
 
-        Drawable drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.baseline_arrow_back_24, null);
-        drawable.setColorFilter(getResources().getColor(android.R.color.white), PorterDuff.Mode.SRC_ATOP);
-        getSupportActionBar().setHomeAsUpIndicator(drawable);
 
 
         carregarPartidos();
